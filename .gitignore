@@ -1,0 +1,27 @@
+# ---- Research code & data (kept locally, not published) ----
+research/
+
+# ---- Secrets ----
+.env
+.env.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+.venv*/
+env/
+
+# ---- Editors / OS / tool caches ----
+.idea/
+.vscode/
+.DS_Store
+.serena/
