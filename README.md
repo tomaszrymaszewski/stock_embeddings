@@ -12,7 +12,7 @@ data = {"AAPL": aapl_prices, "MSFT": msft_prices, "XOM": xom_prices, ...}
 embeddings = train_embeddings(data)   # -> {"AAPL": [64 floats], "MSFT": [...], ...}
 ```
 
-**Full documentation: [docs.stockscore.live](https://docs.stockscore.live/)**
+**Full documentation: [stockscore.live/docs](https://stockscore.live/docs/)**
 
 ## Summary
 
@@ -99,7 +99,7 @@ Use `fit()` instead of `train_embeddings()` to get the full `TrainResult` — em
 the returns matrix actually used, the similarity graph, and the resolved config — plus
 helpers like `to_dataframe()` and `most_similar()`.
 
-See the [documentation](https://docs.stockscore.live/) for the complete parameter
+See the [documentation](https://stockscore.live/docs/) for the complete parameter
 reference and guides.
 
 ## Research
