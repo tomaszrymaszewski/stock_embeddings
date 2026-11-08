@@ -1,8 +1,8 @@
-# stock-embeddings
+# Stock Embeddings
 
 Train vector embeddings of stocks from their price history. Give the library a dict of
 `{ticker: prices}`, and it builds a stock-similarity graph from return correlations and
-embeds every stock into a dense vector — stocks that move together (and belong to similar
+embeds every stock into a vector. Stocks that move together (and belong to similar
 businesses) end up close in embedding space.
 
 ```python
